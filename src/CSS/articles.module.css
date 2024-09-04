@@ -1,0 +1,17 @@
+.mainArticles {
+  margin-top: 10rem;
+  padding: 0 1rem;
+}
+
+.latestArtiHead {
+  margin-left: 3rem;
+  font-size: 3.5rem;
+  color: #0e2368;
+}
+
+@media (max-width: 768px) {
+  .latestArtiHead {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}

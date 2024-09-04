@@ -1,0 +1,23 @@
+.cardMain {
+  width: 23rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 35rem;
+  border-radius: 15px;
+  border: 0.6px solid black;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .cardMain {
+    width: 90%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: auto;
+    padding: 1rem;
+  }
+}

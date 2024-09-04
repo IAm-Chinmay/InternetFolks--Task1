@@ -1,0 +1,144 @@
+.homeHeader {
+  position: absolute;
+  top: 2.063rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 10;
+}
+
+.homeLogo {
+  margin-left: 6.25rem;
+}
+
+.headerHomeGITBtn {
+  margin-right: 6.25rem;
+  width: 7.625rem;
+  height: 2.625rem;
+  border-radius: 1.313rem;
+  border: 1px solid white;
+  background-color: transparent;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.homeMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeLeftSectionMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homeMainSlogan {
+  font-size: 3.875rem;
+  color: #0e2368;
+  margin-left: 6.25rem;
+  width: 25rem;
+}
+
+.homeMainPara {
+  font-size: 1.028rem;
+  color: #444957;
+  width: 21.563rem;
+  margin-left: 6.25rem;
+  margin-top: 1.5rem;
+}
+
+.homeMainBtn {
+  margin-right: 6.25rem;
+  margin-left: 6.25rem;
+  margin-top: 1.5rem;
+  width: 11.875rem;
+  height: 3.938rem;
+  border-radius: 34px;
+  border: 1px solid black;
+  background-color: #e23744;
+  color: white;
+  font-weight: 800;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+.pinkVector {
+  position: absolute;
+  top: -1px;
+  width: 45.938rem;
+  height: 50.25rem;
+  right: -10px;
+}
+
+.pizzaImage {
+  width: 45.938rem;
+  height: 50.25rem;
+}
+
+@media (max-width: 768px) {
+  .homeHeader {
+    justify-content: flex-end;
+    padding-right: 1rem;
+  }
+
+  .homeLogo {
+    display: none;
+  }
+
+  .headerHomeGITBtn {
+    margin-right: 0rem;
+  }
+
+  .homeMain {
+    flex-direction: column-reverse;
+  }
+
+  .homeLeftSectionMain {
+    margin-top: 2rem;
+  }
+
+  .homeMainSlogan {
+    margin-left: 0;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 20rem;
+  }
+
+  .homeMainPara {
+    all: unset;
+    margin-top: 2rem;
+    text-align: center;
+    width: 15.563rem;
+    font-size: 0.9rem;
+  }
+
+  .homeMainBtn {
+    width: 100%;
+    max-width: 15rem;
+  }
+
+  .homeLeftSectionMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pizzaImage {
+    all: unset;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .pinkVector {
+    all: unset;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
