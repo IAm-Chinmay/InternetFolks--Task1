@@ -32,7 +32,7 @@ function Footer() {
           Market, XYZ-343434
         </p>
         <p style={styles.text}>example2020@gmail.com</p>
-        <p style={styles.text}>(904) 443-0343</p>
+        <p style={styles.text}>904 443-0343</p>
       </div>
 
       <div style={styles.section}>
@@ -50,7 +50,7 @@ function Footer() {
           <FaTwitter style={styles.icon} />
           <FaFacebook style={styles.icon} />
         </div>
-        <h1 style={styles.footerText}>© 2022 Food Truck Example</h1>
+        <h1 style={styles.footerText}>&#169; 2022 Food Truck Example</h1>
       </div>
     </div>
   );
