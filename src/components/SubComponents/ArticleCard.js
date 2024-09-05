@@ -53,7 +53,7 @@ function ArticleCard({ name }) {
           fontSize: "1rem",
           color: "black",
           cursor: "pointer",
-          marginRight: "12.813rem",
+          marginRight: "11.813rem",
           marginTop: "2rem",
           marginBottom: "1rem",
         }}
